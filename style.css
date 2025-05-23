@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +6,9 @@
 
 /* Corpo da página */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background-color: #eef2f3;
     color: #333;
     padding: 20px;
 }
@@ -21,6 +20,7 @@ header {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 header h1 {
@@ -32,35 +32,88 @@ header p {
     font-size: 1.2em;
 }
 
-/* Estilo do conteúdo */
-.conteudo {
-    margin-top: 30px;
-    line-height: 1.8;
+/* Seção de Introdução */
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.conteudo h2 {
+.intro h2 {
+    font-size: 2em;
     color: #2d6a4f;
-    font-size: 1.8em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.conteudo p {
+.intro p {
     font-size: 1.1em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.conteudo ul {
-    list-style-type: square;
+.intro img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Seção de Problemas */
+.problemas {
+    margin-bottom: 40px;
+}
+
+.problemas h2 {
+    font-size: 2em;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.problemas ul {
+    list-style-type: disc;
     margin-left: 20px;
     font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.problemas img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Seção de Conclusão */
+.conclusao {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.conclusao h2 {
+    font-size: 2em;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.conclusao p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.conclusao img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* Rodapé */
 footer {
     text-align: center;
-    margin-top: 50px;
     padding: 10px;
     background-color: #2d6a4f;
     color: white;
     border-radius: 10px;
+    margin-top: 30px;
 }
