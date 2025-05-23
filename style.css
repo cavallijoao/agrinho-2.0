@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilo do conteúdo */
+.conteudo {
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+.conteudo h2 {
+    color: #2d6a4f;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.conteudo p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.conteudo ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #2d6a4f;
+    color: white;
+    border-radius: 10px;
+}
